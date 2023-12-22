@@ -1,0 +1,1 @@
+FIELD_DATA = ['fio', 'birthday', 'passport_number', 'passport_date', 'address', 'phone', 'email',]
