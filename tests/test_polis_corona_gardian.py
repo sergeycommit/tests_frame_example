@@ -47,9 +47,9 @@ def test_checkbox_profsfera(driver):
 
     page.click_checkbox_profsfera()
 
-allure.testcase(TSM_LINK + (case_num := '3'), "Позитивная проверка сценария покупки полиса")
+allure.testcase(TSM_LINK + (case_num := '4'), "Позитивная проверка сценария покупки полиса")
 @allure.story('Покупка полиса от коронавируса')
-@allure.title(f"{case_num} " + "Проверка чекбокса Профсфера связана с мед.деятельностью")
+@allure.title(f"{case_num} " + "Проверка ошибок при отправке пустх полей")
 @pytest.mark.parametrize("loc", FIELD_DATA)
 def test_check_errors_with_empty_field(driver, loc):
     page = IndexPageSkin(driver)
@@ -70,9 +70,9 @@ def test_check_errors_with_empty_field(driver, loc):
      )
 
 
-allure.testcase(TSM_LINK + (case_num := '3'), "Позитивная проверка сценария покупки полиса")
+allure.testcase(TSM_LINK + (case_num := '5'), "Позитивная проверка сценария покупки полиса")
 @allure.story('Покупка полиса от коронавируса')
-@allure.title(f"{case_num} " + "Проверка чекбокса Профсфера связана с мед.деятельностью")
+@allure.title(f"{case_num} " + "Проверка ошибки при введении невалидных имен")
 @pytest.mark.parametrize("name", [' ', 'asdasd', 'Иванов_Иван_Иванович'])
 def test_not_valid_name(driver, name):
     page = IndexPageSkin(driver)
