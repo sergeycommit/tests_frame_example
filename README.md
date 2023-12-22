@@ -33,7 +33,7 @@
 1. Запуск тестов ``` pytest --alluredir=<папка для результатов> ./tests ``` 
 или ``` pytest -s -v --alluredir=allure-report --host=local tests/ ```
 ```--host=local``` локально(default), ```--host=remote``` в локальном selenoid,
-```--host={hostname}``` на удаленном хосте
+```--host={hostname}``` на удаленном хосте,
 ```-n 4``` параметр для параллельного запуска(4 потока)
 
 2. Генерация отчета ``` allure serve <папка для результатов>```
