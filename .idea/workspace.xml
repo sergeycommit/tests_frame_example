@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c05431b-fba8-4c91-bfe0-aca521d3b327" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/core/drivers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/data/locators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/data/params.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/pages/base_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/pages/page_buy_polis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_polis_corona_gardian.py" afterDir="false" />
-    </list>
+    <list default="true" id="8c05431b-fba8-4c91-bfe0-aca521d3b327" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +44,7 @@
     "Python.test.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "/home/silyin/Desktop/Test/tests",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -194,6 +177,7 @@
       <workItem from="1703181141517" duration="5387000" />
       <workItem from="1703225853172" duration="13665000" />
       <workItem from="1703260796890" duration="2347000" />
+      <workItem from="1703263490258" duration="588000" />
     </task>
     <servers />
   </component>
